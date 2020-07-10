@@ -88,31 +88,31 @@ export default function VersesPage() {
         </Virse>
       </VersesList>
 
-      <TabBar>
-        <Ionicons
-          style={{ padding: 10, backgroundColor: "#EDE9F8", borderRadius: 50 }}
-          name="ios-book"
-          size={40}
-          color="#662DBC"
-        />
-        <Ionicons
-          style={{
-            padding: 10,
-            backgroundColor: "#662DBC",
-            borderRadius: 50,
-            bottom: 25,
-          }}
-          name="ios-bookmarks"
-          size={40}
-          color="#F6B093"
-        />
-        <Ionicons
-          style={{ padding: 10, backgroundColor: "#EDE9F8", borderRadius: 50 }}
-          name="ios-home"
-          size={40}
-          color="#662DBC"
-        />
-      </TabBar>
+      {/*<TabBar>*/}
+      {/*  <Ionicons*/}
+      {/*    style={{ padding: 10, backgroundColor: "#EDE9F8", borderRadius: 50 }}*/}
+      {/*    name="ios-book"*/}
+      {/*    size={40}*/}
+      {/*    color="#662DBC"*/}
+      {/*  />*/}
+      {/*  <Ionicons*/}
+      {/*    style={{*/}
+      {/*      padding: 10,*/}
+      {/*      backgroundColor: "#662DBC",*/}
+      {/*      borderRadius: 50,*/}
+      {/*      bottom: 25,*/}
+      {/*    }}*/}
+      {/*    name="ios-bookmarks"*/}
+      {/*    size={40}*/}
+      {/*    color="#F6B093"*/}
+      {/*  />*/}
+      {/*  <Ionicons*/}
+      {/*    style={{ padding: 10, backgroundColor: "#EDE9F8", borderRadius: 50 }}*/}
+      {/*    name="ios-home"*/}
+      {/*    size={40}*/}
+      {/*    color="#662DBC"*/}
+      {/*  />*/}
+      {/*</TabBar>*/}
     </Container>
   );
 }

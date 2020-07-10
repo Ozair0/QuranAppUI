@@ -23,6 +23,7 @@ export default function HomePage() {
 const Container = styled.View`
   justify-content: center;
   align-items: center;
+  bottom: 10px;
 `;
 const Title = styled.Text`
   font-size: 30px;

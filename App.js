@@ -1,15 +1,17 @@
 import React from "react";
-import { Text, StatusBar } from "react-native";
+import { StatusBar } from "react-native";
 import styled from "styled-components";
-import HomePage from "./App/Screens/HomePage";
-import VersesPage from "./App/Screens/VersesPage";
+import { NavigationContainer } from "@react-navigation/native";
+import AppNavigator from "./App/Navigation/AppNavigator";
+import MyDefaultTheme from "./App/Navigation/MyDefaultTheme";
 
 export default function App() {
   return (
     <Container>
       <StatusBar hidden={true} />
-      {/*<HomePage />*/}
-      <VersesPage />
+      <NavigationContainer theme={MyDefaultTheme}>
+        <AppNavigator />
+      </NavigationContainer>
     </Container>
   );
 }
