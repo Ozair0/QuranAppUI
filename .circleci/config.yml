@@ -16,8 +16,5 @@ jobs:
           paths:
             - ./node_modules
       - run:
-          name: ejectting
-          command: npm run eject
-      - run:
           name: Build IOS
           command: npx react-native run-ios --configuration Release
